@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/Pranav/IdeaProjects/FrameWork_AP/src/test/java/com/learnAutomation/testcases/LoginTestCRM.java">
+        <classes>
+            <class name="com.learnAutomation.testcases.LoginTestCRM">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="loginApp1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
